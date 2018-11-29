@@ -16,7 +16,7 @@ import {Information} from "./concepts/information/information.component";
 import {InformationChild} from "./concepts/information/information-child.component";
 import {Newsletter} from "./concepts/newsletter/news-letter.component";
 import {InputComponent} from "./shared/components/input/input.component";
-import {DatatableComponent} from "./concepts/datatable/datatable.component";
+import {Presidents} from "./concepts/presidents/presidents.component";
 import {NgxDatatableModule} from "@swimlane/ngx-datatable";
 import {SportCongo} from "./concepts/sport-congo/sport-congo.component";
 import {SaleCongo} from "./concepts/sale-congo/sale-congo.component";
@@ -41,7 +41,7 @@ import {SaleCongo} from "./concepts/sale-congo/sale-congo.component";
     Home,
     Newsletter,
     InputComponent,
-    DatatableComponent
+    Presidents
   ],
   providers: [RestConnectorService],
   bootstrap: [AppComponent]

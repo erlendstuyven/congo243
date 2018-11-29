@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'congo-menu',
@@ -17,7 +17,7 @@ import { Component, OnInit } from '@angular/core';
         <a [routerLinkActive]="['active']" [routerLink]="['/newsletter']">Newsletter</a>
       </li>     
       <li>
-        <a [routerLinkActive]="['active']" [routerLink]="['/datatable']">Datatable</a>
+        <a [routerLinkActive]="['active']" [routerLink]="['/presidents']">Presidents</a>
       </li>
     </ul>
   `,
@@ -25,5 +25,6 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class MenuComponent {
-  constructor() { }
+  constructor() {
+  }
 }
